@@ -32,11 +32,14 @@ Certifique-se de ter o Node.js e o Angular CLI instalados.
 
 ### 2. Configuração do Backend (Spring Boot)
 
-Para rodar pelo IntelliJ IDEA:
+Certifique-se de ter o Maven CLI, Docker Desktop e Java 17+ instalados.
 
 1. Certifique-se de que o **Docker Desktop** está aberto e rodando.
-2. Abra o projeto no IntelliJ.
-3. Clique no botão **Run** (ícone de play verde) na classe principal ou na configuração de Spring Boot.
-4. O IntelliJ subirá automaticamente os containers necessários e a aplicação.
+2. Abra o terminal na pasta raiz do backend.
+3. Inicie o projeto:
+  ```
+  mvnw spring-boot:run
+  ```
+5. O IntelliJ subirá automaticamente os containers necessários e a aplicação em http://localhost:8080
 
 ---
