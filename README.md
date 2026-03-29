@@ -40,6 +40,6 @@ Certifique-se de ter o Maven CLI, Docker Desktop e Java 17+ instalados.
   ```
   mvnw spring-boot:run
   ```
-5. O IntelliJ subirá automaticamente os containers necessários e a aplicação em http://localhost:8080
+4. Automaticamente os containers necessários serão criado e a aplicação ficará disponível em http://localhost:8080
 
 ---
