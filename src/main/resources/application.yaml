@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: buscacores
+  flyway:
+    baseline-on-migrate: true
+    clean-disabled: false
+rsa:
+  private-key: classpath:certs/private_key.pem
+  public-key: classpath:certs/public_key.pem
